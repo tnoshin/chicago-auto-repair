@@ -419,6 +419,9 @@ p {
 }
 
 /* footer starts here */
+h5{
+    font-size: 25px;
+}
 .footer {
     height: auto;
     background-color: #0d131a;
@@ -800,6 +803,17 @@ h2 {
     }
     .dropdown{
         top: 5.5%;
+    }
+    h5{
+    font-size: 18px;
+   }
+
+   .footer-content {
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 70px;
     }
 }
 
