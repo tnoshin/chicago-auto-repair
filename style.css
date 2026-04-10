@@ -798,7 +798,7 @@ h2 {
         height: 350px;
     }
     .dropdown{
-        top: 4.5%;
+        top: 5.5%;
     }
 }
 
@@ -816,6 +816,9 @@ h2 {
     }
     .content{
         top:40%;
+    }
+        nav{
+        height: 48px;
     }
 }
 
@@ -846,11 +849,28 @@ h2 {
     .des {
         font-size: 13;
     }
+    .fa-solid.fa-bars.fa-fade {
+        position: absolute;
+        left: 3%;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+    }
+    .dropdown{
+        top: 6%;
+    }
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+        padding: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
 
     nav {
         margin-top: 0px;
         padding-top: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        height:43px;
     }
 
     .fa-solid.fa-phone {
