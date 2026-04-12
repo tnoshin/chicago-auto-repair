@@ -19,7 +19,7 @@ html{
     z-index: 10;
     left: 0%;
     bottom: 0%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(pic.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(picL.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -496,6 +496,9 @@ h2 {
 
 /* tab */
 @media (max-width:900px) {
+    .hero{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(pic.jpeg);
+    }
 
     .content {
         color: white;
